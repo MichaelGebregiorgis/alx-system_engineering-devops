@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -rl 'A' | grep -rl 'Z' | sed -i 's/A/Z/g' | sed -i 's/c/e/g'
+grep -rl 'A' | sed -i 's/A/Z/g' | grep -rl 'c' | sed -i 's/c/e/g'
