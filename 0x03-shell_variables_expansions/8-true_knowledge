@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($TRUEKNOWLEDGE | tr ":" "\n" | wc -l + 128))
+echo $(($TRUEKNOWLEDGE + 128))
