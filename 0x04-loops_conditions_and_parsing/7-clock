@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#Clock
+hr=0
+
+while [ $hr -le 12 ]
+do
+  echo "Hour: $hr"
+  mnt=1
+  while [ $mnt -le 59 ]
+  do
+    echo "Minute: $mnt"
+    (( mnt++ ))
+  done
+  (( hr++ ))
+done
