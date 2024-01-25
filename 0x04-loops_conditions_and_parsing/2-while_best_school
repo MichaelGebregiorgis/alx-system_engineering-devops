@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# 10x Best School using while loop.
+
+val=0
+
+while [ $val -lt 10 ]
+do
+  echo "Best School"
+  (( val++ ))
+done

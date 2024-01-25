@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# 10x while loop.
+# 9th "Hi" before "Best School"
+
+val=0
+
+while [ $val -lt 10 ]
+do
+  if [ $val -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( val++ ))
+done
