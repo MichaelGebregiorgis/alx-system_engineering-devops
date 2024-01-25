@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# content of current directory
+
+lst=$(ls)
+for inc in $lst; do
+  filename=$(echo "$inc" | cut -d '-' -f2)
+  echo "$filename"
+done

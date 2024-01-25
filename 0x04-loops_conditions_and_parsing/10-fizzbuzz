@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# fizzbuzz 1 to 100
+
+for numVal in {1..100}
+do
+   if (( numVal % 3 == 0 && numVal % 5 == 0 ))
+  then
+    echo "FizzBuzz"
+  elif (( numVal % 3 == 0 ))
+  then
+    echo "Fizz"
+  elif (( numVal % 5 == 0 ))
+  then
+    echo "Buzz"
+  else
+    echo "$numVal"
+  fi
+done
