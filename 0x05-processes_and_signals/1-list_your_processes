@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#current processes
+# current processes
 
 ps -ufxa
