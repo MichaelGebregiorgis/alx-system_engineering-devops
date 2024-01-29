@@ -2,4 +2,4 @@
 # kill process
 
 pr_name="4-to_infinity_and_beyond"
-pkill -f $"pr_name"
+pkill -f "$pr_name"
