@@ -9,7 +9,7 @@ do
   mnt=1
   while [ $mnt -le 59 ]
   do
-    echo "Minute: $mnt"
+    echo "$mnt"
     (( mnt++ ))
   done
   (( hr++ ))
