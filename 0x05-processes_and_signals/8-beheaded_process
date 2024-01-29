@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# kill process
+
+pr_name="7-highlander"
+pkill -f -SIGKILL "$pr_name"
